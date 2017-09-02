@@ -59,7 +59,10 @@
         </tr>
     </c:forEach>
     <tr>
-        <td colspan=7 align="right">
+        <td>
+            <a href="book?op=toAdd">添加</a>
+        </td>
+        <td colspan=6 align="right">
             <a href="book?op=list&currentPage=${page.currentPage-1 }"
                <c:if test="${page.currentPage ==1 }">style="color:#ccc" onclick="javascript:return false;"</c:if>
             >上一页</a>
