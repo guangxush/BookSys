@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="BookSys:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/BookSys_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="BookSys/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BookSys" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
